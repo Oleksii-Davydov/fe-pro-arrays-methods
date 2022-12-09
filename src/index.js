@@ -113,6 +113,7 @@ export const reducers = {
     maxPriceReducer,
 };
 
+
 export const sorters = {
     toMaxSorter,
     toMinSorter,
