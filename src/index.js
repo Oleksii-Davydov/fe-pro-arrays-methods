@@ -89,16 +89,13 @@ const maxPriceReducer = () => {
     }).price;
 };
 
-
 const toMaxSorter = () => {
     return goods.sort((prev, next) => next.price - prev.price);
 }
-//console.log(toMaxSorter)
 
 const toMinSorter = () => {
     return goods.sort((prev, next) => prev.price - next.price);
 }
-//console.log(toMinSorter)
 
 export const filters = {
     brandFilter,
